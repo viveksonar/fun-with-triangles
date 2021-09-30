@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+    <div class="container">
+        <a class="back-link" href="index.html">Go Back</a>
+        <div class="content"> 
+            
+                <h1>Test Your Knowledge</h1>
+                <div class="quiz">
+                    <label for="question"> 1. The angles of a triangle sums up to be 180<sup>o</sup>.</label>
+                    <div class="radio">
+                        <label for="radio">
+                    <input type="radio" name="ques1" id="1" onclick="optionHandler(1)">Yes</label>
+                    <label for="radio">
+                    <input type="radio" name="ques1" id="2" onclick="optionHandler(2)">No</label>
+                    
+                    </div>
+                </div>
+
+                <div class="quiz">
+                    <label for="question"> 2. A traingle having all the three sides equal is known as an Equilateral Traingle.</label>
+                    <div class="radio">
+                    <label for="radio">
+                    <input type="radio" name="ques2" id="3" onclick="optionHandler(1)">Yes</label>
+                    <label for="radio"><input type="radio" name="ques2" id="4" onclick="optionHandler(2)">No</label>
+                    
+                </div>
+                </div>
+
+                
+                <div class="quiz">
+                    <label for="question">3. The kind of triangle which has two equal sides is an Isoceles Triangle </label>
+                    <div class="radio">
+                    <label for="radio">
+                    <input type="radio" name="ques3" id="5" onclick="optionHandler(1)">Yes</label>
+                    <label for="radio"><input type="radio" name="ques3" id="6" onclick="optionHandler(2)">No</label>
+                    
+                </div>
+                </div>
+               
+                <div class="quiz">
+                    <label for="question">4. A right-angled triangle must have an angle equal to 90<sup>o</sup> </label>
+                    <div class="radio">
+                    <label for="radio">
+                    <input type="radio" name="ques4" id="7" onclick="optionHandler(1)">Yes</label>
+                    <label for="radio"><input type="radio" name="ques4" id="8" onclick="optionHandler(2)">No</label>
+                    
+                </div>
+                </div>
+                <div class="quiz">
+                    <label for="question">5. An obtuse-angled triangle must have four obtuse angles. </label>
+                    <div class="radio">
+                    <label for="radio">
+                    <input type="radio" name="ques5" id="9" onclick="optionHandler(2)">Yes</label>
+                    <label for="radio"><input type="radio" name="ques5" id="10" onclick="optionHandler(1)" >No</label>
+                    
+                </div>
+                </div>
+
+                <div class="quiz">
+                    <label for="question">6. A triangle whose all the three sides are of different length is called ________ triangle.</label>
+                    <div class="radio">
+                    <label for="radio">
+                    <input type="radio" name="ques6" id="11" onclick="optionHandler(1)">Scalene</label>
+                    <label for="radio"><input type="radio" name="ques6" id="12" onclick="optionHandler(2)">Equilateral</label>
+                    
+                </div>
+                </div>
+                <button id="submitQuiz">Submit</button>
+                <div class="output" id="output-quiz">
+                    Score will be displayed here!
+                </div>
+                         
+                         
+                    
+               
+                   
+                   
+                   
+    </div>
+</div>
+<footer>
+    <ul class="footer-list">
+      <li class="footerLink">
+        <a href="https://github.com/ArpitaV13">
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li class="footerLink">
+        <a href="https://twitter.com/ArpitaV13">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li class="footerLink">
+        <a href="https://www.linkedin.com/in/arpitav13/">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+      <li class="footerLink">
+        <a href="https://arpita-verma.netlify.app/">
+          <i class="fas fa-briefcase"></i>
+        </a>
+      </li>
+    </ul>
+
+
+  </footer>
+    <script src="quiz.js"></script>
+</body>
+</html>

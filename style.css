@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+}
+:root{
+    --primary-color:rgb(131, 24, 67);
+    --secondary-color:#374151;
+}
+body{
+    background-image:url("images/bg.png");
+    font-family: 'Open Sans', sans-serif;
+    background-repeat: no-repeat;
+}
+
+
+
+section h1{
+    text-align:right;
+    margin-top:3rem;
+    margin-right:8vw;
+    color:var(--primary-color);
+    font-size:4rem;
+}
+
+.options a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 2rem;
+    color:white;
+    font-size: 1.2rem;
+    cursor: pointer;
+  
+  }
+  .container-1 ul {
+      margin-top:4rem;
+    list-style: none;
+    text-align: center;
+    float:right;
+    margin-right:10vw;
+    margin-top:1rem;
+  }
+
+  .option-link{
+  background-color:var(--secondary-color);
+  border-radius: 0.5rem;
+  border:1px solid black;
+  margin:1rem;
+  }
+ul :hover{
+      background-color:var(--primary-color);
+      border-radius:0.5rem;
+  }  
+  #back-link:hover{
+    background-color:var(--primary-color);
+  }
+  .container{
+      margin:20vh auto;
+      background-color: rgba(131, 24, 67, 0.3);
+      max-width:70vw;
+      padding:2rem;
+    
+  }
+  .container a{
+      padding:0.5rem;
+     background-color: var(--secondary-color);
+     border-radius: 0.5rem;
+      color:white;
+
+  }
+  .content{
+      text-align:center;
+      margin:2rem;
+      font-size:1.5rem;
+      font-weight: bold;
+      
+
+  }
+ 
+  .input{
+      margin:1rem;
+      max-width:4rem;
+      min-height:3rem;
+      background-color: rgba(202, 91, 135, 0.4);
+      font-size:1.2rem;
+}
+ 
+
+  button{
+      background-color: var(--secondary-color);
+      padding:0.5rem;
+      border-radius:0.5rem;
+      border:2px solid black;
+      color:white;
+      cursor:pointer;
+      font-size:medium;
+      appearance: center;
+      
+  }
+  button :hover{
+      background-color: var(--primary-color);
+  }
+  
+
+  .content p{
+      max-width: 50%;
+      margin:auto;
+      font-weight:bold;
+  }
+
+ 
+  .output{
+      border:2px solid var(--primary-color);
+      min-height:3rem;
+
+      max-width:20rem;
+      margin: 2rem auto;
+      text-align: center;
+  }
+  
+ 
+.options{
+    text-align:left;
+    font-size:1.2rem;
+    padding:1rem;
+}
+
+.quiz{
+    text-align:left;
+    font-size:1.2rem;
+    padding:1rem;
+    margin:0.5rem;
+    
+}
+.radio label{
+    padding:1rem;
+}
+
+  
+footer{
+    background-color: var(--primary-color);
+    min-height:5rem;
+}
+
+ .footerLink a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem;
+    font-size: 1.1rem;
+    color: black;
+    cursor: pointer;
+  }
+footer ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+ 
+
